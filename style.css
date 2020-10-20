@@ -1,0 +1,18 @@
+div{
+	background-color: red;
+}
+
+.patrat{
+	background-color: blue;	
+}
+
+#rotunjit{
+	background-color: #FFFF00;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+}
+
