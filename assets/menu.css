@@ -1,0 +1,34 @@
+nav {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown:hover nav {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.mainmenubtn {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
